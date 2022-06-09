@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(./assets/image/campo-futbol-pasto-verde-fondo-cesped-deportivo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-image: url(./assets/image/Sobre-nosotros.jpg);
+    background-position:center;
+    background-size: 1400px 380px ;
+}
+
+
+header h1{
+    font-family: 'Merienda One', cursive;
+    font-weight: 700;
+    text-shadow: 0 0 3px white;
+    color: black;
+}
+
+footer{
+    background-color:rgb(102, 226, 108);
+    border-top: 1px;
+    border-left: 0px;
+    border-bottom: 1px;
+    border-right: 0px;
+    border-style: solid;
+}
+
+footer ul li{
+    color: rgb(127, 17, 155);
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 10px 10px 10px 10px;
+}
+
+.eslogan{
+    font-family: 'Indie Flower', cursive;
+    color:black;
+    text-align: right;
+    text-shadow: 0 0 1px white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 1%;
+}
+
+article p{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-style:inherit ;
+    font-weight:700 ;
+    color: white;
+}
+
+section h2{
+    text-decoration:underline;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 1%;
+    
+}
+#TituloContacto{
+    margin-left: 3%;
+    text-shadow: 0 0 5px white;
+}
+
+.h2EquipIndEInd {
+    color: black;
+    text-shadow: 0 0 3px white;
+
+}
+
+#paginaPrincipal{
+    text-decoration:solid;
+    font-size: 30px;
+    text-align: left;
+    padding-right: 30%;
+    padding-left: 2%;
+
+}
+#tituloMainProd{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:yellowgreen;
+    width: 30%;
+    font-size: x-large;
+    margin: 25px 0 15px 34%;
+}
+
+section ul,
+footer ul {
+    list-style-type: none;
+    line-height: 1.6;
+}
+footer ul a{
+    text-decoration: none;
+    color:darkmagenta;
+
+}
+
+.navbar{
+    font-family: 'Archivo', sans-serif;    
+    font-weight:bolder;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:chartreuse;
+    padding: 10px;
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+    margin-bottom: 30px;
+    position: sticky;
+    top:0;
+    }
+.navbar a{
+    text-decoration: none;
+    color:black ;
+}
+
+.list{
+    list-style: none;
+    display:flex;
+    gap: 25px;
+}
+
+.boxModel{
+    font-family: 'Audiowide', cursive;
+    font-weight: 300;
+    font-size:x-large;
+    background-color: rgb(199, 199, 170);
+    margin-bottom: 5px;
+    border-style: groove;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+}
+.boxModel a{
+    text-decoration: none;
+    color: black;
+}
+
+.styloLiBoxModel{
+    border-style: outset;
+    border-color:darkgoldenrod;
+    background-color: beige;
+    padding: 10px 20px 10px 20px;
+}
+
+.categoriasBoxModel{
+    margin-bottom: 50px;
+}
+
+.imagenBoxModel{
+    border-style:double;
+    margin: 10px;
+}
+
+fieldset{
+    font-weight: 500;
+    font-size: large;
+    border-style:groove;
+    border-color: black;
+    text-shadow: 0 0 5px white;
+    background-image: url(./assets/image/FondoDePapel.jpg);
+    background-size: cover;
+    margin: 1% 50% 1% 1%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+legend{
+    border-style:double;
+    border-color: black;
+    text-shadow: 0 0 2px white;
+    background-image: url(./assets/image/FondoDePapel.jpg);
+}
+
+.sobreNosotrosImg{
+    margin: 0px 250px 5px 250px;
+    border-style: solid;
+
+}
+#sobreNosTitulo{
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.pie {
+    max-width: 10%;
+    max-height: 10%;
+    position:fixed;
+    bottom: 5px;
+    left: 94.5%;
+}
+
+.divSeccionesMasBuscadas{
+    font-family: 'Audiowide', cursive;
+    font-weight: 100;
+    font-size:large;
+    background-color: rgb(199, 199, 170);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: groove;
+    display:block;
+    padding: 5px 15px 5px 15px;
+    list-style: none;
+}
+.divSeccionesMasBuscadas a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#secciones {
+    background-color: darkgreen;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 12px;
+}
+
+#grilla{
+    display: grid;
+}
+
+header{
+    grid-area: header;
+    justify-content: space-between;
+
+}
+
+nav{
+    grid-area: nav;
+}
+
+section{
+    grid-area: section;
+}
+
+main{
+    grid-area: main;
+}
+
+div{
+    grid-area: div;
+}
+
+footer{
+    grid-area: footer;
+    justify-content: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 1000px){
+    #grilla{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 0px;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "div"
+        "main"
+        "section"
+        "section"
+        "footer";}
+        .sobreNosotrosImg{
+            margin: 0px;
+        }
+        article p{
+            text-align: center;
+            text-shadow: 2px 2px 5px black;
+            font-family: 'Prompt', sans-serif;
+            font-size: 20px;
+            font-style:inherit ;
+            font-weight:700 ;
+            color: white;
+            padding-left: 50px ;
+            padding-right: 50px;
+            }
+        .sobreNosotrosImg{
+            text-align: center;
+            border-style: solid;
+        }
+        .divSeccionesMasBuscadas{
+            text-align: center;
+        }
+        .pie{
+            left: 89%;
+        }
+            
+            
+        
+
+}
+
+@media screen and (min-width: 480px){}
+
+@media screen and (min-width: 600px){}
+
+@media screen and (min-width: 768px){}
+
+@media screen and (min-width: 1024px){}
+
+@media screen and (min-width: 1000px){
+    #grilla{
+        grid-template-columns: 12% auto auto;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 0px;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "div main main"
+        "div main main"
+        "section section section"
+        "section section section"
+        "footer footer footer";}
+         #secciones{
+            display: block;}  
+        .sobreNosotrosImg{
+            margin: 0px 250px 5px 250px;
+        }      
+}
+
