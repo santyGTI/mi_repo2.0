@@ -11,7 +11,7 @@
 }
 
 body{
-    background-image: url(./assets/image/campo-futbol-pasto-verde-fondo-cesped-deportivo.jpg);
+    background-image: radial-gradient(circle at center, green, rgb(153, 210, 61), rgb(187, 187, 37) );
     background-position: center;
     background-size: cover;
 }
@@ -93,14 +93,6 @@ section h2{
     padding-left: 2%;
 
 }
-#tituloMainProd{
-    text-align: center;
-    text-transform: uppercase;
-    background-color:yellowgreen;
-    width: 30%;
-    font-size: x-large;
-    margin: 25px 0 15px 34%;
-}
 
 section ul,
 footer ul {
@@ -128,6 +120,7 @@ footer ul a{
     margin-bottom: 30px;
     position: sticky;
     top:0;
+    z-index: 100;
     }
 .navbar a{
     text-decoration: none;
@@ -166,9 +159,28 @@ footer ul a{
     margin-bottom: 50px;
 }
 
+.imagenBoxModel1{
+    border-style:double;
+    margin: 10px;
+    transition: all 2s;
+}
+
+.imagenBoxModel1:hover{
+    height: 280px;
+    width: 700px;
+    transform: scale(1,1.1);
+}
+
 .imagenBoxModel{
     border-style:double;
     margin: 10px;
+    transition: all 2s;
+}
+
+.imagenBoxModel:hover{
+    height: 280px;
+    width: 250px;
+    transform: scale(1,1.1)
 }
 
 fieldset{
@@ -202,8 +214,8 @@ legend{
 }
 
 .pie {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 7%;
+    max-height: 7%;
     position:fixed;
     bottom: 5px;
     left: 94.5%;
@@ -225,6 +237,35 @@ legend{
     text-decoration: none;
     text-align: center;
     color: black;
+}
+#divAnim {
+    text-align: center;
+    text-transform: uppercase;
+    background-color:yellowgreen;
+    width: 30%;
+    font-size: x-large;
+    margin: 25px 0 15px 34%;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes un_efecto {
+    0% {
+        width: 220px;
+        background-color: yellowgreen;
+    }
+    50%{
+        width: 250px;
+        background-color: chartreuse;
+    }
+    100%{
+        width: 300px;
+        background-color: darkkhaki;
+    }
 }
 
 #secciones {
