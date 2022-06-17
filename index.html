@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>"90 Minutos" Store</title>
     <link rel="shortcut icon" href="./assets/image/logo-altern..png">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
@@ -19,33 +20,57 @@
     <nav class="navbar">
         <ul class="list">
              <li class="styloLiBoxModel"><a href="index.html">Inicio</a></li>
-             <li class="styloLiBoxModel"><a href="./pages/indument-de-arbitro.html">Indumentaria de Arbitro</a></li>
-             <li class="styloLiBoxModel"><a href="./pages/equip-tecnico.html">Equipamiento Tecnico</a></li>
-             <li class="styloLiBoxModel"><a href="./pages/indument-y-equip-complement.html">Indumentaria y Equipamiento Tecn. Complementario</a></li>
+             <li class="styloLiBoxModel"><a href="./pages/indumentaria.html">Indumentaria</a></li>
+             <li class="styloLiBoxModel"><a href="./pages/calzado.html">Calzado</a></li>
+             <li class="styloLiBoxModel"><a href="./pages/Accesorios.html">Accesorios</a></li>
              <li class="styloLiBoxModel"><a href="./pages/sobre-nosotr.html">Sobre Nosotros</a></li>
         </ul>
     </nav>
-    <div id="secciones">
-        <h3>Secciones mas buscadas:</h3>
-        <ul>
-            <li class="divSeccionesMasBuscadas"><a href="#">Remeras Arbitro</a></li>
-            <li class="divSeccionesMasBuscadas"><a href="#">Silvatos</a></li>
-            <li class="divSeccionesMasBuscadas"><a href="#">Tarjetas</a></li>
-            <li class="divSeccionesMasBuscadas"><a href="#">Shorts Arbitro</a></li>
-            <li class="divSeccionesMasBuscadas"><a href="#">Reloj Cronometo</a></li>
-            <li class="divSeccionesMasBuscadas"><a href="#">Medias Largas Arbitro</a></li>
-        </ul>
-    </div>
+        <div id="secciones">
+            <h4>Secciones mas buscadas:</h4>
+            <ul>
+                <li class="divSeccionesMasBuscadas"><a href="#">Remeras Arbitro</a></li>
+                <li class="divSeccionesMasBuscadas"><a href="#">Silvatos</a></li>
+                <li class="divSeccionesMasBuscadas"><a href="#">Tarjetas</a></li>
+                <li class="divSeccionesMasBuscadas"><a href="#">Shorts Arbitro</a></li>
+                <li class="divSeccionesMasBuscadas"><a href="#">Reloj Cronometo</a></li>
+                <li class="divSeccionesMasBuscadas"><a href="#">Medias Largas Arbitro</a></li>
+            </ul>
+        </div>
+    
     <main class="categoriasBoxModel">
         <h2 id="paginaPrincipal"><p><i>Pagina web dedicada a la venta de Indumentaria y equipación tecnica para Arbitros, Entrenadores y Preparadores Físicos.</i></p></h2>
-        <h3 id="divAnim"> Productos mas Destacados</h3>
-        <div class="divTransition">
-            <img width="320" height="300" class="imagenBoxModel" src="./assets/image/imagen-inicio(pagina-Principal).jpg" alt="imagen-presentación">
-            <img width="320" height="300" class="imagenBoxModel" src="./assets/image/imagen-inicio(pagina-principal)2.jpg" alt="imagen-presentación">
-            <img width="320" height="300" class="imagenBoxModel" src="./assets/image/imagen-inicio(pagina-principal)4.jpg" alt="imagen-presentación">
-            <img width="800" height="300" class="imagenBoxModel1" src="./assets/image/imagen-inicio(pagina-principal)3.jpg" alt="imagen-presentación">
+        <h3 id="divAnim"> "Sugerencia de Compras"</h3>
+        <div class="container-fluid">
+            <div class="row cartasindex">
+                <div class="card imagenAnimTrans" style="width: 18rem;">
+                    <img src="./assets/image/imagen-inicio(pagina-Principal).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><i>Conjunto/set completo de arbitro indispensable.</i></p>
+                    </div>
+                </div>
+                <div class="card imagenAnimTrans" style="width: 18rem;">
+                    <img src="./assets/image/imagen-inicio(pagina-principal)2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><i>Set camisetas marca "Sadra" de distintos colores para coincidir con tus compañeros de campo.</i></p>
+                    </div>
+                </div>
+                <div class="card imagenAnimTrans" style="width: 18rem;">
+                    <img src="./assets/image/imagen-inicio(pagina-principal)4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><i>"Organizador de elementos arbitrales": para tener todas tus herramientas de trabajo a mano y en un unico lugar.</i></p>
+                    </div>
+                </div>
+                <div class="card imagenAnimTrans2" style="width: 32rem;">
+                    <img src="./assets/image/imagen-inicio(pagina-principal)3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><i> Herramientas complementarias y fundamentales para sintetizar y facilitar la labor arbitral dentro del campo juego.</i></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+
     <footer>
         <ul>
             <li><a href="./pages/contacto.html">Contacto</a></li>
@@ -55,5 +80,6 @@
     <a href="#bottom"><img src="./assets/image/volverArriba.png" class="pie" alt="ir-arriba"></a>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
