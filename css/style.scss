@@ -1,0 +1,432 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@import "colores";
+@import "tipografias";
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: radial-gradient(circle at center, green, rgb(153, 210, 61), rgb(187, 187, 37) );
+    background-position: center;
+    background-size: cover;
+    line-height: normal;
+}
+
+header {
+    background-image: url(../assets/image/Sobre-nosotros.jpg);
+    background-position:center;
+    background-size: 100%;
+    h1{
+        font-family: $titulo, cursive;
+        font-weight: 700;
+        font-size:x-large;
+        text-shadow: 0 0 3px white;
+        color: $colorLetras;
+    
+    }
+}
+
+footer{
+    background-color:rgb(102, 226, 108);
+    border-top: 1px;
+    border-left: 0px;
+    border-bottom: 1px;
+    border-right: 0px;
+    border-style: solid;
+    ul{
+        li{
+            color: rgb(127, 17, 155);
+            font-family: 'Archivo', sans-serif;
+            font-weight: 600;
+            font-size: 21px;
+            margin: 10px 10px 10px 10px;
+        } 
+    }
+}
+
+
+.eslogan{
+    font-family: $eslogan, cursive;
+    color: $colorLetras;
+    text-align: right;
+    text-shadow: 0 0 1px white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 1%;
+    margin-bottom: 0%;
+}
+
+article {
+     p{
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+        font-family: 'Prompt', sans-serif;
+        font-size: 20px;
+        font-style:inherit ;
+        font-weight:700 ;
+        color: white;
+    }
+}   
+
+section {
+    h2{
+        text-decoration:underline;
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-left: 1%;
+        
+    }
+}
+#TituloContacto{
+    margin-left: 3%;
+    text-shadow: 0 0 5px white;
+}
+
+.h2pagina2ria {
+    color: $colorLetras;
+    text-shadow: 0 0 3px white;
+
+}
+
+#paginaPrincipal{
+    text-decoration:solid;
+    font-size: 30px;
+    text-align: left;
+    padding-right: 30%;
+    padding-left: 2%;
+    color:white;
+    text-shadow: 0 0 3px rgb(23, 19, 19);
+
+}
+
+section ul,
+footer ul {
+    list-style-type: none;
+    line-height: 1.6;
+    a{
+        text-decoration: none;
+        color:darkmagenta;
+    
+    }
+}
+
+
+.navbar{
+    font-family: 'Archivo', sans-serif;    
+    font-weight:bolder;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:chartreuse;
+    padding: 10px;
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+    margin-bottom: 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    a{
+        text-decoration: none;
+        color: $colorLetras ;
+    }
+}
+
+.list{
+    list-style: none;
+    display:flex;
+    gap: 40px;
+    margin-bottom: 2px;
+}
+
+.boxModel{
+    font-family: 'Audiowide', cursive;
+    font-weight: 300;
+    font-size:x-large;
+    background-color: rgb(199, 199, 170);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 84%;
+    border-style: groove;
+    padding: 5px 15px 5px 15px;
+    a{
+        text-decoration: none;
+        color: $colorLetras;
+    }
+}
+
+.styloLiBoxModel{
+    border-style: outset;
+    border-color:darkgoldenrod;
+    background-color: beige;
+    padding: 10px 20px 10px 20px;
+}
+
+.categoriasBoxModel{
+    margin-bottom: 50px;
+}
+
+.imagenBoxModel1{
+    border-style:double;
+    margin: 10px;
+    transition: all 2s;
+    &:hover{
+        height: 280px;
+        width: 320px;
+        transform: scale(1,1.1);
+    
+    }
+}
+
+
+fieldset{
+    font-weight: 500;
+    font-size: large;
+    border-style:groove;
+    border-color: black;
+    text-shadow: 0 0 5px white;
+    background-image: url(../assets/image/FondoDePapel.jpg);
+    background-size: cover;
+    margin: 1% 50% 1% 1%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+legend{
+    border-style:double;
+    border-color: black;
+    text-shadow: 0 0 2px white;
+    background-image: url(../assets/image/FondoDePapel.jpg);
+}
+
+
+#sobreNosTitulo{
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.pie {
+    max-width: 7%;
+    max-height: 7%;
+    position:fixed;
+    bottom: 5px;
+    left: 94.5%;
+}
+
+.divSeccionesMasBuscadas{
+    font-family: 'Audiowide', cursive;
+    font-weight: 100;
+    font-size:small;
+    background-color: rgb(199, 199, 170);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: groove;
+    display:block;
+    padding: 5px 15px 5px 15px;
+    list-style: none;
+    a{
+        text-decoration: none;
+        text-align:center;
+        color: $colorLetras;
+    }
+}
+
+#divAnim {
+    text-align: center;
+    text-transform: uppercase;
+    background-color:yellowgreen;
+    width: 30%;
+    font-size: x-large;
+    margin: 25px 0 15px 34%;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes un_efecto {
+    0% {
+        width: 338px;
+        background-color: yellowgreen;
+    }
+    50%{
+        width: 280px;
+        background-color: chartreuse;
+    }
+    100%{
+        width: 220px;
+        background-color: darkkhaki;
+    }
+}
+
+#secciones {
+    background-color: darkgreen;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 12px;
+}
+
+#grilla{
+    display: grid;
+}
+
+header{
+    grid-area: header;
+    justify-content: space-between;
+
+}
+
+nav{
+    grid-area: nav;
+}
+
+section{
+    grid-area: section;
+}
+
+main{
+    grid-area: main;
+}
+
+div{
+    grid-area: div;
+}
+
+footer{
+    grid-area: footer;
+    justify-content: center;
+}
+/*cartas del index*/
+
+.cartasindex {
+    margin: 10px;
+}
+
+.imagenAnimTrans{
+    margin: 12px;
+    transition: all 2s;
+    &:hover{
+        height: 359px;
+        width: 250px;
+        transform: scale(1,1.1)    
+    }
+}
+
+.imagenAnimTrans2{
+    margin: 12px;
+    transition: all 2s;
+    &:hover{
+        height: 282px;
+        width: 250px;
+        transform: scale(1,1.1)    
+    }
+}
+
+/*cartas de indumentaria*/
+.cartasindum{
+    margin: 5px;
+}
+
+/*centro sobre nosotros*/
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.centro__img {
+    img{
+        border: solid 2px black;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 1000px){
+    #grilla{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 0px;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "div"
+        "main"
+        "section"
+        "section"
+        "footer";}
+        
+        article {
+            p{
+                text-align: center;
+                text-shadow: 2px 2px 5px black;
+                font-family: 'Prompt', sans-serif;
+                font-size: 20px;
+                font-style:inherit ;
+                font-weight:700 ;
+                color: white;
+                padding-left: 50px ;
+                padding-right: 50px;
+                }
+        }
+
+        .divSeccionesMasBuscadas{
+            text-align: center;
+        }
+        .pie{
+            left: 89%;
+        }
+            
+            
+        
+
+}
+
+@media screen and (min-width: 480px){}
+
+@media screen and (min-width: 600px){}
+
+@media screen and (min-width: 768px){}
+
+@media screen and (min-width: 1024px){}
+
+@media screen and (min-width: 1000px){
+    #grilla{
+        grid-template-columns: 12% auto auto;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 0px;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "div main main"
+        "div main main"
+        "section section section"
+        "section section section"
+        "footer footer footer";}
+         #secciones{
+            display: block;}  
+    
+        .divSeccionesMasBuscadas{
+            margin-left: -40px;
+
+        }
+ 
+}
+
