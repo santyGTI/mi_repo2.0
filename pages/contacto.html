@@ -17,50 +17,82 @@
         <h1>Tienda "90 Minutos"</h1>
         <p class="eslogan">"Acompañando dentro y fuera de la cancha.."</p>
     </header>
-    <nav class="navbar">
+   <!--<nav class="navbar">
         <ul class="list">
             <li class="styloLiBoxModel"><a href="../index.html">Inicio</a></li>
             <li class="styloLiBoxModel"><a href="./indumentaria.html">Indumentaria</a></li>
             <li class="styloLiBoxModel"><a href="./calzado.html">Calzado</a></li>
-            <li class="styloLiBoxModel"><a href="./Accesorios.html">Accesorios</a></li>
+            <li class="styloLiBoxModel"><a href="./accesorios.html">Accesorios</a></li>
             <li class="styloLiBoxModel"><a href="./sobre-nosotr.html">Sobre Nosotros</a></li>    
         </ul>
+    </nav>-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img width="40" height="40" src="../assets/image/logo-altern..png" alt="logo">
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="indumentaria.html">indumentaria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="calzado.html">Calzado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="accesorios.html">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="sobre-nosotr.html">Sobre Nosotros</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+              <button class="btn btn-outline-success botom" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
     </nav>
+
     <section>
         <h2 id="TituloContacto"> Contacto</h2>
         <article>
             <form action="#" method="GET" enctype="multipart/form-data">
                 <fieldset>
                     <legend><b>Información Personal:</b></legend>
-                    <br>
+                    
                     <label for="nombre">Nombre:</label>
                     <input name="nombre" type="text" placeholder="Nombre">
 
-                    <br>
+                    
                     <label for="nombre">Apellido:</label>
                     <input name="nombre" type="text" placeholder="Apellido">
 
-                    <br>
+                    
                     <label for="nombre">Email:</label>
                     <input name="nombre" type="text" placeholder="Email">
 
-                    <br>
+                    
                     <label for="nombre">¿Desea recibir nuestro Newsletter?</label>
-                    <br>
+                    
                     <select name="elija">
                         <option value="s">sí</option>
                         <option value="n">no</option>
                         <option value="e">en otro momento</option>
                     </select>
                     
-                    <br>
+                    
                     <input name="borrar" type="submit" value="Limpiar Formulario">
                     <input name="enviar" type="submit" value="Enviar Formulario">
 
                </fieldset>
             </form>
         </article>
-        <br>
+        
     </section>
     <footer>
         <ul>
