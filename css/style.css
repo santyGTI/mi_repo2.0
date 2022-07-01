@@ -23,7 +23,7 @@ header {
 header h1 {
   font-family: "Merienda One", cursive;
   font-weight: 700;
-  font-size: x-large;
+  font-size: 30px;
   text-shadow: 0 0 3px white;
   color: black;
 }
@@ -40,7 +40,7 @@ footer ul li {
   color: rgb(127, 17, 155);
   font-family: "Archivo", sans-serif;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 22.5px;
   margin: 10px 10px 10px 10px;
 }
 
@@ -49,7 +49,7 @@ footer ul li {
   color: black;
   text-align: right;
   text-shadow: 0 0 1px white;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   padding-right: 1%;
   margin-bottom: 0%;
@@ -59,10 +59,9 @@ article p {
   text-align: center;
   text-shadow: 2px 2px 5px black;
   font-family: "Prompt", sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   font-style: inherit;
   font-weight: 700;
-  color: white;
 }
 
 section h2 {
@@ -77,6 +76,7 @@ section h2 {
   text-shadow: 0 0 5px white;
 }
 
+/*extend, map-get*/
 .h2pagina2ria {
   color: black;
   text-shadow: 0 0 3px white;
@@ -88,7 +88,6 @@ section h2 {
   font-size: 30px;
   text-align: left;
   padding-right: 10%;
-  color: white;
   text-shadow: 0 0 3px rgb(23, 19, 19);
   margin: 0px;
 }
@@ -134,16 +133,17 @@ footer ul a {
   margin-bottom: 2px;
 }
 
-.boxModel {
+.boxModel, .h2pagina2ria {
   font-family: "Audiowide", cursive;
   font-weight: 300;
-  font-size: x-large;
+  font-size: 29px;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-right: 84%;
   padding: 5px 15px 5px 15px;
+  text-decoration: underline;
 }
-.boxModel a {
+.boxModel a, .h2pagina2ria a {
   text-decoration: none;
   color: black;
 }
@@ -172,7 +172,7 @@ footer ul a {
 
 fieldset {
   font-weight: 500;
-  font-size: large;
+  font-size: 25px;
   border-style: double;
   border-color: black;
   text-shadow: 0 0 5px white;
@@ -214,7 +214,7 @@ legend {
 .divSeccionesMasBuscadas {
   font-family: "Audiowide", cursive;
   font-weight: 100;
-  font-size: small;
+  font-size: 12.5px;
   background-color: rgb(199, 199, 170);
   margin-top: 10px;
   margin-bottom: 10px;
@@ -225,8 +225,8 @@ legend {
 }
 .divSeccionesMasBuscadas a {
   text-decoration: none;
-  text-align: center;
   color: black;
+  text-align: center;
 }
 
 .divAnim {
@@ -234,7 +234,7 @@ legend {
   text-transform: uppercase;
   background-color: yellowgreen;
   width: 30%;
-  font-size: x-large;
+  font-size: 22px;
   -webkit-animation-name: un_efecto;
           animation-name: un_efecto;
   -webkit-animation-iteration-count: infinite;
@@ -369,16 +369,23 @@ footer {
     grid-template-areas: "header" "nav" "div" "main" "section" "section" "footer";
   }
 
+  header h1 {
+    font-size: 20px;
+  }
   header img {
     width: 95px;
     height: 95px;
+  }
+
+  .eslogan {
+    font-size: 18px;
   }
 
   article p {
     text-align: center;
     text-shadow: 2px 2px 5px black;
     font-family: "Prompt", sans-serif;
-    font-size: 20px;
+    font-size: 25px -5;
     font-style: inherit;
     font-weight: 700;
     color: white;
@@ -400,12 +407,16 @@ footer {
 
   main h4 .divAnim {
     margin: 25px 0px 0px 0px;
-    font-size: large;
+    font-size: 25px;
   }
 
   main h3 p {
     margin: 0px 20px 20px 20px;
-    font-size: large;
+    font-size: 22px;
+  }
+
+  .divAnim {
+    margin-left: 5%;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -429,4 +440,19 @@ footer {
   .divAnim {
     margin: 25px 0 15px 34%;
   }
+}
+/*mapa */
+.titulos {
+  color: black;
+}
+
+.parrafos {
+  color: white;
+}
+
+/*mixin*/
+.divSeccionesMasBuscadas a {
+  font-weight: 300;
+  color: rgb(51, 49, 49);
+  text-shadow: 0px 0.5px 5px black;
 }/*# sourceMappingURL=style.css.map */
