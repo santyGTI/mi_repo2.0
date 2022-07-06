@@ -110,7 +110,7 @@ footer ul a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: rgb(169, 233, 169) !important;
+  background-color: rgb(169, 233, 169);
   padding: 10px;
   border: 1px;
   border-style: solid;
