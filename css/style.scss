@@ -213,9 +213,14 @@ fieldset{
         margin-bottom: 20px;
         
     }
-
-
 }
+body{
+.seccion{
+    font-size: $tamanoTipo - 3;
+    }
+}
+
+
 legend{
     border-color: black;
     text-shadow: 0 0 2px white;

@@ -192,6 +192,10 @@ fieldset select {
   margin-bottom: 20px;
 }
 
+body .seccion {
+  font-size: 22px;
+}
+
 legend {
   border-color: black;
   text-shadow: 0 0 2px white;
