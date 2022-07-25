@@ -139,7 +139,7 @@ footer ul a {
   font-size: 29px;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-right: 84%;
+  margin-right: 54%;
   padding: 5px 15px 5px 15px;
   text-decoration: underline;
 }
@@ -167,6 +167,19 @@ footer ul a {
 .imagenBoxModel1:hover {
   height: 280px;
   width: 320px;
+  transform: scale(1, 1.1);
+}
+
+.imagenBoxModel2 {
+  width: 500px;
+  height: 250px;
+  border-style: double;
+  margin: 10px;
+  transition: all 2s;
+}
+.imagenBoxModel2:hover {
+  height: 280px;
+  width: 550px;
   transform: scale(1, 1.1);
 }
 
@@ -372,7 +385,6 @@ footer {
     row-gap: 0px;
     grid-template-areas: "header" "nav" "div" "main" "section" "section" "footer";
   }
-
   header h1 {
     font-size: 20px;
   }
@@ -380,11 +392,9 @@ footer {
     width: 95px;
     height: 95px;
   }
-
   .eslogan {
     font-size: 18px;
   }
-
   article p {
     text-align: center;
     text-shadow: 2px 2px 5px black;
@@ -396,31 +406,40 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
   }
-
   .divSeccionesMasBuscadas {
     text-align: center;
   }
-
   .pie {
     left: 89%;
   }
-
   section article img {
     width: 320px;
   }
-
   main h4 .divAnim {
     margin: 25px 0px 0px 0px;
     font-size: 25px;
   }
-
   main h3 p {
     margin: 0px 20px 20px 20px;
     font-size: 22px;
   }
-
   .divAnim {
     margin-left: 5%;
+  }
+  .imagenBoxModel2 {
+    width: 300px;
+    height: 250px;
+    border-style: double;
+    margin: 10px;
+    transition: all 2s;
+  }
+  .imagenBoxModel2:hover {
+    height: 280px;
+    width: 350px;
+    transform: scale(1, 1.1);
+  }
+  fieldset {
+    margin: 0;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -432,15 +451,12 @@ footer {
     row-gap: 0px;
     grid-template-areas: "header header header" "nav nav nav" "div main main" "div main main" "section section section" "section section section" "footer footer footer";
   }
-
   #secciones {
     display: block;
   }
-
   .divSeccionesMasBuscadas {
     margin-left: -40px;
   }
-
   .divAnim {
     margin: 25px 0 15px 34%;
   }
